@@ -116,6 +116,7 @@ private:
     // must not depend on which GT implementation the product uses.
     bool display12SmallGTDetected {},display12SmallGTReady {};
     bool tglGT2Detected {},tglGT2Ready {};
+    bool tglSkipGPUTicks {};
     XELP::GTResources tglGT2Resources;
     bool adlsDisplaySelected {},adlsDisplayHooksReady {};
     bool adlsPortInitReady {},tglHPDHookReady {};
